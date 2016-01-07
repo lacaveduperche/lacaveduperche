@@ -1385,7 +1385,6 @@
 		transition: border-bottom-color 0.25s ease-in-out;
 		color: inherit;
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(0, 0, 0, 0.25);
 	}
 
 		a:hover {
@@ -1393,8 +1392,8 @@
 		}
 
 	.dark a {
-		color: #fff;
 		border-bottom-color: rgba(255, 255, 255, 0.5);
+		cursor: inherit;
 	}
 
 		.dark a:hover {
